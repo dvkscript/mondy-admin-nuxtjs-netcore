@@ -1,0 +1,63 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#d6e8ff" />
+    </linearGradient>
+    <linearGradient id="building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f0f0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)" />
+  
+  <!-- Hotel building -->
+  <rect x="100" y="150" width="600" height="350" fill="url(#building)" stroke="#e0e0e0" stroke-width="2" rx="5" />
+  
+  <!-- Windows -->
+  <g fill="#e6f2ff" stroke="#d0e0f0" stroke-width="1">
+    <!-- Row 1 -->
+    <rect x="150" y="180" width="40" height="60" rx="2" />
+    <rect x="220" y="180" width="40" height="60" rx="2" />
+    <rect x="290" y="180" width="40" height="60" rx="2" />
+    <rect x="360" y="180" width="40" height="60" rx="2" />
+    <rect x="430" y="180" width="40" height="60" rx="2" />
+    <rect x="500" y="180" width="40" height="60" rx="2" />
+    <rect x="570" y="180" width="40" height="60" rx="2" />
+    
+    <!-- Row 2 -->
+    <rect x="150" y="260" width="40" height="60" rx="2" />
+    <rect x="220" y="260" width="40" height="60" rx="2" />
+    <rect x="290" y="260" width="40" height="60" rx="2" />
+    <rect x="360" y="260" width="40" height="60" rx="2" />
+    <rect x="430" y="260" width="40" height="60" rx="2" />
+    <rect x="500" y="260" width="40" height="60" rx="2" />
+    <rect x="570" y="260" width="40" height="60" rx="2" />
+    
+    <!-- Row 3 -->
+    <rect x="150" y="340" width="40" height="60" rx="2" />
+    <rect x="220" y="340" width="40" height="60" rx="2" />
+    <rect x="290" y="340" width="40" height="60" rx="2" />
+    <rect x="360" y="340" width="40" height="60" rx="2" />
+    <rect x="430" y="340" width="40" height="60" rx="2" />
+    <rect x="500" y="340" width="40" height="60" rx="2" />
+    <rect x="570" y="340" width="40" height="60" rx="2" />
+  </g>
+  
+  <!-- Entrance -->
+  <rect x="350" y="420" width="100" height="80" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="2" rx="3" />
+  <rect x="390" y="420" width="20" height="80" fill="#e6e6e6" />
+  
+  <!-- Hotel sign -->
+  <rect x="320" y="120" width="160" height="40" fill="#4f46e5" rx="5" />
+  <text x="400" y="147" font-family="Arial" font-size="20" fill="white" text-anchor="middle">MONDY HOTEL</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="450" r="15" fill="#4f46e5" opacity="0.1" />
+  <circle cx="600" cy="200" r="25" fill="#4f46e5" opacity="0.1" />
+  <circle cx="700" cy="350" r="20" fill="#4f46e5" opacity="0.1" />
+  <circle cx="200" cy="150" r="30" fill="#4f46e5" opacity="0.1" />
+</svg>

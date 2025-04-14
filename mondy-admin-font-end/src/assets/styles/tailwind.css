@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@theme {
+    /* --color-surface-ground: var(--surface-ground); */
+    --container-sm: '576px';
+    --container-md: '768px';
+    --container-lg: '992px';
+    --container-xl: '1200px';
+    --container-2xl: '1920px';
+}
+/* 
+@layer base {
+    :root {
+        
+    }
+} */
